@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('TBI-Dataset.csv')
+df = pd.read_csv('TBI-Data.csv')
 
 # Convert columns to numeric
 df['GCSTot'] = pd.to_numeric(df['GCSTot'], errors='coerce')
