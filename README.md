@@ -38,7 +38,7 @@
     * Orbital/Cranial Fracture [Specific factors of injuries that prevent actions part of the GCS test]
     * Spinal Cord damage [Specific factors of injuries that prevent actions part of the GCS test]
     * Hypoxic-ischemic encephalopathy [Specific factors of injuries that prevent actions part of the GCS test]
-<h5 align = center>[^ The score is usually not calculated if any of the 3 parts of the GCS test cannot be appropriately obtained ^]</h5>
+<div align=center>[^ The score is usually not calculated if any of the 3 parts of the GCS test cannot be appropriately obtained ^]</div>
 
 
 * **Significance of the GSC Test:**
