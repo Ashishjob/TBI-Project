@@ -47,7 +47,7 @@
   
 ----
 
-# **<span style="text-decoration:underline;">Project Ideas:</span>**
+# **<span style="text-decoration:underline;">Exploratory Analysis:</span>**
 
 
 1. Find a correlation between **GCS and intoxicating substance use (drugs and alcohol)**, and from there make a predictor to predict GCS levels based on the amount of substance in the patient’s bloodstream, or if the patient has generally used these substances before.
