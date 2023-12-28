@@ -16,7 +16,6 @@ substances = ['ALCDrinks', 'Drugs', 'MJUse']
 df = df[~df['ALCDrinks'].isin([666, 777, 888, 999]) & ~df['GCSTot'].isin([77, 88, 999])]
 df = df.dropna(subset=['GCSTot', 'ALCDrinks', 'Drugs', 'MJUse'])
 
-x = df['GCSTot']
 substances = ['ALCDrinks', 'Drugs', 'MJUse']
 
 for substance in substances:
