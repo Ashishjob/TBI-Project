@@ -118,7 +118,7 @@
 
    d. **Graphs:**
 
-     <div align="center"><img src="graphImages/GCS vs. Age/GCSTot vs. AGEnoPHI.png" width="300"/></div>
+     <div align="center"><img src="graphImages/GCS vs. Age/GCSTot vs. AGEnoPHI.png" width="400"/></div>
 ----   
 2. Find a correlation between **GCS and the highest level of education attained**, and from there make a predictor to predict GCS levels based on the patient’s highest education.
 
@@ -145,7 +145,7 @@
 
    c. **Graphs:**
 
-     <div align="center"><img src="graphImages/GCS vs. Education/GCSTot vs. EDUCATION.png" width="300"/></div>
+     <div align="center"><img src="graphImages/GCS vs. Education/GCSTot vs. EDUCATION.png" width="400"/></div>
 ----   
 4. Find a correlation between **GCS and BMI**, and from there make a predictor to predict GCS levels based on the patient’s BMI.
 
@@ -180,7 +180,7 @@
 
    d. **Graphs:**
 
-     <div align="center"><img src="graphImages/GCS vs. BMI/GCSTot vs. BMI.png" width="300"/> <img src="graphImages/GCS vs. BMI/GCSTot vs. BMICat.png" width="300"/></div>
+     <div align="center"><img src="graphImages/GCS vs. BMI/GCSTot vs. BMI.png" width="350"/> <img src="graphImages/GCS vs. BMI/GCSTot vs. BMICat.png" width="350"/></div>
 ----   
 5. Find a correlation between **GCS and speed of relative recovery**, and from there make a predictor to predict GCS levels based on the patient’s speed of recovery.
 
@@ -209,7 +209,7 @@
 
    d. **Graphs:**
 
-     <div align="center"><img src="graphImages/GCS vs. Recovery Speed/GCSTot vs. TFCDays.png" width="300"/></div>
+     <div align="center"><img src="graphImages/GCS vs. Recovery Speed/GCSTot vs. TFCDays.png" width="400"/></div>
 ----   
 6. Find a correlation between the **speed of relative recovery and GCS separate scores and total score**, and from there make a predictor to predict the speed of relative recovery based on the patient’s GCS Scale’s separate scores and total score.
 
@@ -254,7 +254,7 @@
 
    d. **Graphs:**
 
-     <div align="center"> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSEye.png" width="400"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCDays%20vs.%20GCSVer.png" width="400"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSMot.png" width="400"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSTot.png" width="400"/></div>
+     <div align="center"> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSEye.png" width="350"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCDays%20vs.%20GCSVer.png" width="350"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSMot.png" width="350"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSTot.png" width="350"/></div>
 ----     
 
 # **<span style="text-decoration:underline;">Used Sources:</span>**
