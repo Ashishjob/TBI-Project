@@ -30,7 +30,8 @@ r_squared = corr_coeff**2
 
 equation = (f"y = {coefficients[0]:.3f}x + {coefficients[1]:.3f}")
 
-# Plot Graph
+# Graph
+plt.scatter(x, y)
 plt.plot(x_line, y_line, c='red')
 plt.title("GCSTot vs. BMI")
 plt.xlabel('GCS Total')
@@ -38,11 +39,11 @@ plt.ylabel('BMI')
 plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
 plt.show()
 
-# Scatter Graph
-plt.scatter(x, y)
-plt.title("GCSTot vs. BMI")
-plt.xlabel('GCS Total')
-plt.ylabel('BMI')
-plt.yticks([10, 20, 30, 40, 50])
-plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
-plt.show()
+# # Scatter Graph
+# plt.scatter(x, y)
+# plt.title("GCSTot vs. BMI")
+# plt.xlabel('GCS Total')
+# plt.ylabel('BMI')
+# plt.yticks([10, 20, 30, 40, 50])
+# plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
+# plt.show()

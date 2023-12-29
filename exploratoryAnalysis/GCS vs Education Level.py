@@ -36,18 +36,19 @@ r_squared = corr_coeff**2
 
 equation = (f"y = {coefficients[0]:.3f}x + {coefficients[1]:.3f}")
 
-# Plot Graph
+# Graph
+plt.scatter(x, y)
 plt.plot(x_line, y_line, c='red')
 plt.title("GCSTot vs. EDUCATION")
 plt.xlabel('GCS Total')
 plt.ylabel('Education Level')
 plt.show()
 
-# Scatter Graph
-plt.scatter(x, y)
-plt.title("GCSTot vs. EDUCATION")
-plt.xlabel('GCS Total')
-plt.ylabel('Education Level')
-plt.yticks([1, 2, 3, 4, 5, 6, 7, 8, 9], ['< 8th Grade', '8th Grade', '9 - 11th Grade', 'High School', 'Some College', 'Associate Degree', 'Bachelor Degree', 'Master Degree', 'Doctorate Degree'])
-plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
-plt.show()
+# # Scatter Graph
+# plt.scatter(x, y)
+# plt.title("GCSTot vs. EDUCATION")
+# plt.xlabel('GCS Total')
+# plt.ylabel('Education Level')
+# plt.yticks([1, 2, 3, 4, 5, 6, 7, 8, 9], ['< 8th Grade', '8th Grade', '9 - 11th Grade', 'High School', 'Some College', 'Associate Degree', 'Bachelor Degree', 'Master Degree', 'Doctorate Degree'])
+# plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
+# plt.show()

@@ -12,20 +12,12 @@ df['GCSMot'] = pd.to_numeric(df['GCSMot'], errors='coerce')
 df['GCSTot'] = pd.to_numeric(df['GCSTot'], errors='coerce')
 
 # Remove rows with invalid values
-df = df[df['TFCDays'] <= 150]
+df = df[~df['TFCDays'].isin([7777, 9999]) & ~df['GCSEye'].isin([7, 99]) & ~df['GCSVer'].isin([7, 8, 99]) & ~df['GCSMot'].isin([7, 99]) & ~df['GCSTot'].isin([77, 88, 999])]
 df = df.dropna(subset=['TFCDays', 'GCSEye', 'GCSVer', 'GCSMot', 'GCSTot'])
 
 GCStype = ['GCSEye', 'GCSVer', 'GCSMot', 'GCSTot']
 
 for GCStype in GCStype:
-    if GCStype == 'GCSEye':
-        df = df[df['GCSEye'] <= 4]
-    elif GCStype == 'GCSVer':
-        df = df[df['GCSVer'] <= 5]
-    elif GCStype == 'GCSMot':
-        df = df[df['GCSMot'] <= 6]
-    elif GCStype == 'GCSTot':
-        df = df[df['GCSTot'] <= 15]
 
     x = df['TFCDays']
     y = df[GCStype]
@@ -45,26 +37,24 @@ for GCStype in GCStype:
 
     equation = (f"y = {coefficients[0]:.3f}x + {coefficients[1]:.3f}")
 
-    # Plot Graph
+    # Graph
+    plt.scatter(x, y)
     plt.plot(x_line, y_line, c='red')
     plt.title(f"TFCDays vs. {GCStype}")
     plt.xlabel('TFCDays')
     plt.ylabel(GCStype)
-    if GCStype != 'GCSTot':
-        plt.ylim(bottom = 0.5)
-    else:
-        plt.ylim(bottom = 2)
+
     plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
     plt.show()
 
-    # Scatter Graph
-    plt.scatter(x, y)
-    plt.title(f"TFCDays vs. {GCStype}")
-    plt.xlabel('TFCDays')
-    plt.ylabel(GCStype)
-    if GCStype != 'GCSTot':
-        plt.ylim(bottom = 0.5)
-    else:
-        plt.ylim(bottom = 2)
-    plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
-    plt.show()
+    # # Scatter Graph
+    # plt.scatter(x, y)
+    # plt.title(f"TFCDays vs. {GCStype}")
+    # plt.xlabel('TFCDays')
+    # plt.ylabel(GCStype)
+    # if GCStype != 'GCSTot':
+    #     plt.ylim(bottom = 0.5)
+    # else:
+    #     plt.ylim(bottom = 2)
+    # plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
+    # plt.show()

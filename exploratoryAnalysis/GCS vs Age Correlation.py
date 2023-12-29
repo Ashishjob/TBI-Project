@@ -33,7 +33,8 @@ r_squared = corr_coeff**2
 
 equation = (f"y = {coefficients[0]:.3f}x + {coefficients[1]:.3f}")
 
-# Plot Graph
+# Graph
+plt.scatter(x, y)
 plt.plot(x_line, y_line, c='red')
 plt.title("GCSTot vs. AGEnoPHI")
 plt.xlabel('GCS Total')
@@ -41,11 +42,11 @@ plt.ylabel('Age')
 plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
 plt.show()
 
-# Scatter Graph
-plt.scatter(x, y)
-plt.title("GCSTot vs. AGEnoPHI")
-plt.xlabel('GCS Total')
-plt.ylabel('Age')
-plt.yticks([20, 30, 40, 50, 60, 70, 80, 90], ['20-29', '30-39', '40-49', '50-59', '60-69', '70-79', '80', '89+'])
-plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
-plt.show()
+# # Scatter Graph
+# plt.scatter(x, y)
+# plt.title("GCSTot vs. AGEnoPHI")
+# plt.xlabel('GCS Total')
+# plt.ylabel('Age')
+# plt.yticks([20, 30, 40, 50, 60, 70, 80, 90], ['20-29', '30-39', '40-49', '50-59', '60-69', '70-79', '80', '89+'])
+# plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
+# plt.show()

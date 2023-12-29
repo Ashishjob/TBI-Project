@@ -39,18 +39,12 @@ for substance in substances:
     equation = (f"y = {coefficients[0]:.3f}x + {coefficients[1]:.3f}")
 
     # Plot Graph
+    plt.scatter(x, y)
+    if substance != 'ALCDrinks':
+        plt.yticks([0, 1], ['No', 'Yes'])
     plt.plot(x_line, y_line, c='red')
     plt.title(f"GCSTot vs. {substance}")
     plt.xlabel('GCS Total')
     plt.ylabel(substance)
     plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
     plt.show()
-
-    # Scatter Graph
-    if substance == 'ALCDrinks':
-        plt.scatter(x, y)
-        plt.title(f"GCSTot vs. {substance}")
-        plt.xlabel('GCS Total')
-        plt.ylabel(substance)
-        plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
-        plt.show()

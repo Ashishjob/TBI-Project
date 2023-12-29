@@ -32,16 +32,9 @@ r_squared = corr_coeff**2
 
 equation = (f"y = {coefficients[0]:.3f}x + {coefficients[1]:.3f}")
 
-# Plot Graph
-plt.plot(x_line, y_line, c='red')
-plt.title("GCSTot vs. TFCDays")
-plt.xlabel('GCS Total')
-plt.ylabel('TFCDays')
-plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
-plt.show()
-
-# Scatter Graph
+# Graph
 plt.scatter(x, y)
+plt.plot(x_line, y_line, c='red')
 plt.title("GCSTot vs. TFCDays")
 plt.xlabel('GCS Total')
 plt.ylabel('TFCDays')
