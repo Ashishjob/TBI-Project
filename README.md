@@ -86,6 +86,10 @@
    
          iii. Summary:
                Higher Previous Substance Use ~ Lower GCS; but it is not very accurate, since R-squared values are so low. The alcohol one is most interesting since it isn’t just a yes/no response but has more variance.
+
+   d. **Graphs:**
+
+     <div align="center"><img src="graphImages/GCS vs. Substance/GCSTot vs. ALCDrinks.png" width="300"/> <img src="graphImages/GCS vs. Substance/GCSTot vs. Drugs.png" width="300"/> <img src="graphImages/GCS vs. Substance/GCSTot vs. MJUse.png" width="300"/></div>
 ----   
 2. Find a correlation between **GCS and age**, and from there make a predictor to predict GCS levels based on the patient’s age.
 
@@ -111,6 +115,10 @@
    
          iii. Summary:
                Lower Age ~ Lower GCS; but this might be an issue with fewer individuals even getting their GCS recorded at older ages from earlier deaths.
+
+   d. **Graphs:**
+
+     <div align="center"><img src="graphImages/GCS vs. Age/GCSTot vs. AGEnoPHI.png" width="300"/></div>
 ----   
 2. Find a correlation between **GCS and the highest level of education attained**, and from there make a predictor to predict GCS levels based on the patient’s highest education.
 
@@ -134,6 +142,10 @@
    
          iii. Summary:
                Lower Education ~ Lower GCS; the r-squared value is really low, and looking at the scatter plot for it shows that there really are no differential things you can notice about each category
+
+   c. **Graphs:**
+
+     <div align="center"><img src="graphImages/GCS vs. Education/GCSTot vs. EDUCATION.png" width="300"/></div>
 ----   
 4. Find a correlation between **GCS and BMI**, and from there make a predictor to predict GCS levels based on the patient’s BMI.
 
@@ -165,6 +177,10 @@
    
          iii. Summary:
                Lower BMI ~ Lower GCS; the r-squared value is really low, and looking at the scatter plot for it, I did not see any definite noticeable signs of a pattern. Also, in the scatterplot, Underweight to Obese Class III are the same.
+
+   d. **Graphs:**
+
+     <div align="center"><img src="graphImages/GCS vs. BMI/GCSTot vs. BMI.png" width="300"/> <img src="graphImages/GCS vs. BMI/GCSTot vs. BMICat.png" width="300"/></div>
 ----   
 5. Find a correlation between **GCS and speed of relative recovery**, and from there make a predictor to predict GCS levels based on the patient’s speed of recovery.
 
@@ -190,6 +206,10 @@
    
          iii. Summary:
                Longer Recovery Time ~ Lower GCS, pretty intuitive understanding that more severe cases take longer to recover from, so might be pointless.
+
+   d. **Graphs:**
+
+     <div align="center"><img src="graphImages/GCS vs. Recovery Speed/GCSTot vs. TFCDays.png" width="300"/></div>
 ----   
 6. Find a correlation between the **speed of relative recovery and GCS separate scores and total score**, and from there make a predictor to predict the speed of relative recovery based on the patient’s GCS Scale’s separate scores and total score.
 
@@ -231,7 +251,11 @@
    
          iii. Summary:
                Higher Score ~ Shorter Recovery Time, the accuracy of each one is about the same and nothing really stands out in the scatter graph, but there do seem to be places of potential for further digging in terms of patterns.
-----  
+
+   d. **Graphs:**
+
+     <div align="center"> <img src="graphImages/Recovery Speed vs. GCS Separate Scores/TFCDays vs. GCSEye.png" width="400"/> <img src="graphImages/Recovery Speed vs. GCS Separate Scores/TFCDays vs. GCSVer.png" width="400"/> <img src="graphImages/Recovery Speed vs. GCS Separate Scores/TFCDays vs. GCSMot.png" width="400"/> <img src="graphImages/Recovery Speed vs. GCS Separate Scores/TFCDays vs. GCSTot.png" width="400"/></div>
+----     
 
 # **<span style="text-decoration:underline;">Used Sources:</span>**
 
