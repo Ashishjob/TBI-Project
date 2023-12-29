@@ -116,7 +116,7 @@
          iii. Summary:
                Lower Age ~ Lower GCS; but this might be an issue with fewer individuals even getting their GCS recorded at older ages from earlier deaths.
 
-   d. **Graphs:**
+   d. **Graph:**
 
      <div align="center"><img src="graphImages/GCS vs. Age/GCSTot vs. AGEnoPHI.png" width="400"/></div>
 ----   
@@ -143,7 +143,7 @@
          iii. Summary:
                Lower Education ~ Lower GCS; the r-squared value is really low, and looking at the scatter plot for it shows that there really are no differential things you can notice about each category
 
-   c. **Graphs:**
+   c. **Graph:**
 
      <div align="center"><img src="graphImages/GCS vs. Education/GCSTot vs. EDUCATION.png" width="400"/></div>
 ----   
@@ -207,7 +207,7 @@
          iii. Summary:
                Longer Recovery Time ~ Lower GCS, pretty intuitive understanding that more severe cases take longer to recover from, so might be pointless.
 
-   d. **Graphs:**
+   d. **Graph:**
 
      <div align="center"><img src="graphImages/GCS vs. Recovery Speed/GCSTot vs. TFCDays.png" width="400"/></div>
 ----   
