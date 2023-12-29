@@ -1,5 +1,8 @@
 # **<span style="text-decoration:underline;">TBI Project:</span>**
 
+## **<span style="text-decoration:underline;">Background:</span>**
+In December 2021, I underwent two major brain surgeries resulting in Subdural Acute Hematomas, leading to Traumatic Brain Injuries (TBIs). Following these surgeries, I was admitted to TIRR for therapeutic services, marking a transformative period in my recovery journey. This experience ignited my interest in the intersection of healthcare and data science, prompting me to explore the TBIMS Dataset—a valuable resource in traumatic brain injury research. The goal of this project is to leverage data-driven approaches, ultimately aiming to identify risk factors related to GCS [Glasgow Coma Scale] scores and make predictive models utilizing such factors. This documentation represents a work-in-progress account of my exploration into this interdisciplinary endeavor.
+
 ## **<span style="text-decoration:underline;">General Information:</span>**
 
 ### **<span style="text-decoration:underline;">GCS [Glasgow Coma Scale]</span>**
