@@ -254,7 +254,7 @@
 
    d. **Graphs:**
 
-     <div align="center"> <img src="graphImages/Recovery Speed vs. GCS Separate Scores/TFCDays vs. GCSEye.png" width="400"/> <img src="graphImages/Recovery Speed vs. GCS Separate Scores/TFCDays vs. GCSVer.png" width="400"/> <img src="graphImages/Recovery Speed vs. GCS Separate Scores/TFCDays vs. GCSMot.png" width="400"/> <img src="graphImages/Recovery Speed vs. GCS Separate Scores/TFCDays vs. GCSTot.png" width="400"/></div>
+     <div align="center"> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSEye.png" width="400"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCDays%20vs.%20GCSVer.png" width="400"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSMot.png" width="400"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSTot.png" width="400"/></div>
 ----     
 
 # **<span style="text-decoration:underline;">Used Sources:</span>**
