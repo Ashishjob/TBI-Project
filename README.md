@@ -123,7 +123,7 @@ In December 2021, I underwent two major brain surgeries resulting in Subdural Ac
 
      <div align="center"><img src="graphImages/GCS vs. Age/GCSTot vs. AGEnoPHI.png" width="400"/></div>
 ----   
-2. Find a correlation between **GCS and the highest level of education attained**, and from there make a predictor to predict GCS levels based on the patient’s highest education.
+3. Find a correlation between **GCS and the highest level of education attained**, and from there make a predictor to predict GCS levels based on the patient’s highest education.
 
    a. **Variables**: GCSTot vs. EDUCATION
    
@@ -216,7 +216,7 @@ In December 2021, I underwent two major brain surgeries resulting in Subdural Ac
 ----   
 6. Find a correlation between the **speed of relative recovery and GCS separate scores and total score**, and from there make a predictor to predict the speed of relative recovery based on the patient’s GCS Scale’s separate scores and total score.
 
-   a. **Variables**: GCSTot vs. [ALCDrinks, Drugs, and MJUse]
+   a. **Variables**: TFCDays vs. [GCSEye, GCSVer, GCSMot, and GCSTot]
 
       1. **TFCDays** [Days From Injury to Follow Commands]:
 

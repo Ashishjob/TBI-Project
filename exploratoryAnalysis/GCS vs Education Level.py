@@ -42,6 +42,7 @@ plt.plot(x_line, y_line, c='red')
 plt.title("GCSTot vs. EDUCATION")
 plt.xlabel('GCS Total')
 plt.ylabel('Education Level')
+plt.figtext(0.5, 0.02, f"Equation: {equation}; R-Squared: {r_squared:.3f}", ha="center", fontsize=12, bbox={"facecolor":"white", "alpha":0.5, "pad":5})
 plt.show()
 
 # # Scatter Graph
