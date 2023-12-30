@@ -50,7 +50,7 @@ In December 2021, I underwent two major brain surgeries resulting in Subdural Ac
   
 ----
 
-# **<span style="text-decoration:underline;">Exploratory Analysis:</span>**
+## **<span style="text-decoration:underline;">Exploratory Analysis:</span>**
 
 
 1. Find a correlation between **GCS and intoxicating substance use (drugs and alcohol)**, and from there make a predictor to predict GCS levels based on the amount of substance in the patient’s bloodstream, or if the patient has generally used these substances before.
@@ -260,7 +260,12 @@ In December 2021, I underwent two major brain surgeries resulting in Subdural Ac
      <div align="center"> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSEye.png" width="350"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCDays%20vs.%20GCSVer.png" width="350"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSMot.png" width="350"/> <img src="https://github.com/Ashishjob/TBI-Project/blob/main/graphImages/Recovery%20Speed%20vs.%20GCS%20Separate%20Scores/TFCdays%20vs.%20GCSTot.png" width="350"/></div>
 ----     
 
-# **<span style="text-decoration:underline;">Used Sources:</span>**
+## **<span style="text-decoration:underline;">Further Analysis:</span>**
+
+* Selected the correlation between GCSTot and TFCDays because of the higher r-squared value compared to the other linear regression models and the graph which had more apparent patterns that had stronger potential to dive further with other variables.
+
+----
+## **<span style="text-decoration:underline;">Used Sources:</span>**
 
 
 * [TBIMS Data Dictionary Explorer](https://hub.tbindsc.org/tbimsdatadictionary/Home) 
